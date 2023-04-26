@@ -1,0 +1,59 @@
+.landingContainer{
+    background-image: url("../../Assets/mapa-mundo-vintage-dibujo_23-2148307886.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.titleLand {
+   color: #3d1010;
+  font-size: 45px;
+  
+}
+
+.divButton {
+  position: relative;
+  height: 100vh; /* Establece la altura del contenedor */
+
+  /* Agrega estilos adicionales para el contenedor */
+}
+
+.buttonLand {
+  position: absolute;
+  left: 90%;
+  bottom: 2rem; /* Ajusta la posición vertical del botón */
+  transform: translateX(-440%);
+  
+  
+}
+
+
+
+.buttonLand {
+    /* Estilos base del botón */
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+
+    /* Estilos para el efecto de sombra */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.buttonLand:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
